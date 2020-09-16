@@ -10,12 +10,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="4"
-        android:orientation="horizontal"></LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:layout_weight="2"
         android:orientation="horizontal">
 
@@ -112,6 +106,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/borde_redondo"
             android:text="@string/puntomedio" />
 
         <Button
@@ -120,6 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/borde_redondo"
             android:text="@string/pendiente" />
 
         <Button
@@ -128,6 +124,13 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/borde_redondo"
             android:text="@string/cuadrante" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="horizontal"></LinearLayout>
 </LinearLayout>
