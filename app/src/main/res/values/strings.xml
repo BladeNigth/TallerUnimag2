@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TallerUnimag2</string>
+    <string name="distancex1">X1</string>
+    <string name="distancey1">Y1</string>
+    <string name="distancex2">X2</string>
+    <string name="distabcey2">Y2</string>
+    <string name="puntomedio">Punto Medio</string>
+    <string name="pendiente">Pendiente</string>
+    <string name="cuadrante">Cuadrante</string>
+
 </resources>
