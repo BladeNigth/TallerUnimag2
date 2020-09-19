@@ -47,7 +47,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (item.getItemId()){
 
             case R.id.m1:
-                Toast.makeText(this, "Distance", Toast.LENGTH_SHORT).show();
+
+                double dx1 = Double.parseDouble(x1.getText().toString());
+                double dx2 = Double.parseDouble(x2.getText().toString());
+                double dy1 = Double.parseDouble(y1.getText().toString());
+                double dy2 = Double.parseDouble(y2.getText().toString());
+                double distancia;
+                double x, y;
+                x = Math.pow(dx2-dx1,2);
+                y = Math.pow(dy2-dy1,2);
+                distancia = Math.sqrt(x+y);
+
+                Toast.makeText(this, "La Distancia de los puntos es: "+distancia, Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.m2:
@@ -69,6 +80,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String al =""+alea;
         return al;
     }
+
+
 
     @Override
     public void onClick(View view) {
